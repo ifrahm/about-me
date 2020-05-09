@@ -1,0 +1,43 @@
+/*
+Name:Ifrah Mohamed
+Date: 10/16/19
+Section cse 154 AL TA: Tal Wolman
+This is the styles.css page, it contains all the styling used for index.html.
+*/
+.hidden {
+  display: none;
+}
+
+.side-by-side {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+footer {
+  font-size: 15px;
+  padding: 20px;
+}
+
+#happy-sad, #favorites, #classes, #about, #user-choice {
+  padding: 20px;
+  background-color: white;
+  border-radius: 70px;
+  border: solid 10px;
+  margin: auto;
+}
+
+.purple {
+  background-color: purple;
+}
